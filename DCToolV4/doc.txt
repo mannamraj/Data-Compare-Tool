@@ -1,0 +1,8 @@
+
+url :
+Please use below url to use the dtc c
+http://localhost:9091
+
+start
+  java   -Xms1G -Xmx2G -Dspring.config.location=./config/application.properties -cp dtc-0.0.1-SNAPSHOT.jar;lib/*;. org.springframework.boot.loader.JarLauncher
+
